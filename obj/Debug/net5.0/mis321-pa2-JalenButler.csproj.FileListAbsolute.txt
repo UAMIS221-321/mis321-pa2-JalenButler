@@ -1,0 +1,16 @@
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.exe
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.deps.json
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.runtimeconfig.json
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.runtimeconfig.dev.json
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.dll
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\ref\mis321-pa2-JalenButler.dll
+C:\source\repos\mis321-pa2-JalenButler\bin\Debug\net5.0\mis321-pa2-JalenButler.pdb
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.csproj.AssemblyReference.cache
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.AssemblyInfoInputs.cache
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.AssemblyInfo.cs
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.csproj.CoreCompileInputs.cache
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.dll
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\ref\mis321-pa2-JalenButler.dll
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.pdb
+C:\source\repos\mis321-pa2-JalenButler\obj\Debug\net5.0\mis321-pa2-JalenButler.genruntimeconfig.cache
