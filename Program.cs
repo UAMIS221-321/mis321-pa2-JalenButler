@@ -10,6 +10,8 @@ namespace mis321_pa2_JalenButler
     {
         static void Main(string[] args)
         {
+
+            //These random numbers generate all the stats for the characters, yes I know this was an inefficient way to do this will learn better way next time 
            
             
             Random mprandom = new Random();
@@ -61,10 +63,12 @@ namespace mis321_pa2_JalenButler
             
             
 
+            //These are my characters that are playable I added an extra playable character called Jalen Butler who will never lose a game because he is overpowered in every statistical category just like in real life :)
 
             JackSparrow jacksparrow = new JackSparrow(){Name = "Jack Sparrow", Health = 100, MaxPower = JSmp, AttackStrength = JSass, DefensivePower = JSdp };
             DavyJones davyjones = new DavyJones(){Name = "Davy Jones", Health = 100, MaxPower = DJmp, AttackStrength = DJass, DefensivePower = DJdp};
             WillTurner willturner = new WillTurner(){Name = "Will Turner", Health = 100, MaxPower = WTmp, AttackStrength = WTass, DefensivePower = WTdp};
+            JalenButler jalenbutler = new JalenButler(){Name = "Jalen Butler", Health = 1000, MaxPower = 100, AttackStrength = 100, DefensivePower = 100};
             GenericCharacter Gen1 = new GenericCharacter();
             GenericCharacter Gen2 = new GenericCharacter();
 
@@ -89,7 +93,7 @@ namespace mis321_pa2_JalenButler
             Console.WriteLine();
 
             Console.WriteLine("{0} What character would you like to play as?", player1);
-            Console.WriteLine("1 for Jack, 2 for Davy, 3 for Will");
+            Console.WriteLine("1 for Jack, 2 for Davy, 3 for Will, 4 for Jalen");
             Console.WriteLine();
             int player1Answer = int.Parse(Console.ReadLine());
             switch (player1Answer)
@@ -101,6 +105,9 @@ namespace mis321_pa2_JalenButler
                 break;
 
                 case 3: Gen1 = willturner;
+                break;
+
+                case 4: Gen1 = jalenbutler;
                 break;
 
                  
@@ -123,6 +130,9 @@ namespace mis321_pa2_JalenButler
                 break;
 
                 case 3: Gen2 = willturner;
+                break;
+
+                case 4: Gen2 = jalenbutler;
                 break;
 
                  
