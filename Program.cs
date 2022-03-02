@@ -145,6 +145,8 @@ namespace mis321_pa2_JalenButler
         double damageDone;
         double damageDone2;
         double typebonus = 1; 
+
+
         
         Console.WriteLine("Randomizing who goes first.........");
         Random random = new Random();
@@ -153,6 +155,23 @@ namespace mis321_pa2_JalenButler
 
         if(random2 == 0)
         {
+
+            if (Gen1.Name == "Jack Sparrow" && Gen2.Name == "Will Turner")
+            {
+                typebonus = 1.2;
+            }
+
+            else if (Gen1.Name == "Will Turner" && Gen2.Name == "Davy Jones")
+            {
+                typebonus = 1.2;
+            }
+            else if (Gen1.Name == "Davy Jones" && Gen2.Name == "Jack Sparrow")
+            {
+                typebonus = 1.2;
+            }
+           
+
+
             Console.WriteLine(Gen1.Name, " Is attacking fisrt");
             while (Gen1.Health > 0 && Gen2.Health > 0)
             {
@@ -198,6 +217,21 @@ namespace mis321_pa2_JalenButler
         }
           if(random2 == 1)
         {
+
+            if (Gen2.Name == "Jack Sparrow" && Gen1.Name == "Will Turner")
+            {
+                typebonus = 1.2;
+            }
+
+            else if (Gen2.Name == "Will Turner" && Gen1.Name == "Davy Jones")
+            {
+                typebonus = 1.2;
+            }
+            else if (Gen2.Name == "Davy Jones" && Gen1.Name == "Jack Sparrow")
+            {
+                typebonus = 1.2;
+            }
+
             Console.WriteLine(Gen2.Name, " Is attacking fisrt");
             while (Gen1.Health > 0 && Gen2.Health > 0)
             {
